@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 100px 1fr 50px;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/vetores-premium/padrao-sem-emenda-com-revolveres-e-rosas-elemento-de-design-para-poster-cartao-banner-camiseta-ilustracao-vetorial_124137-3448.jpg);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 0% 0% 35% 35%;
+  justify-content: center;
+}
+
+main {
+  overflow: auto;
+}
+
+main .message {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  max-width: 50%;
+  background-color: #2790b0;
+}
+
+main .message .time {
+  margin: .5rem 0 0 0;
+  padding: .5rem 0 0 0;
+  font-style: italic;
+  border-top: 1px solid rgba(255, 255, 255, .5);
+}
+
+main .message.owner {
+  justify-self: end;
+  background-color: #007bff;
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.tamanhoImage{
+  height: 60%;
+}
+
+.botaoRetorno{
+position: absolute;
+left: 50px;
+height: 40px;
+background-color: #94ba65;
+}
